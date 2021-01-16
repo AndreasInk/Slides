@@ -14,7 +14,7 @@ struct DeckCard: View {
             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
                 .foregroundColor(Color("lightGray"))
             Text(deck.title)
-                .font(.largeTitle)
+                .font(Font.custom("OpenSans-SemiBold", size: 35, relativeTo: .title))
                 .padding()
                 
         }

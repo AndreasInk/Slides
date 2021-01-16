@@ -12,7 +12,7 @@ struct TitleView: View {
     var body: some View {
         HStack {
         Text(text)
-            .font(.title)
+            .font(Font.custom("OpenSans-Bold", size: 55, relativeTo: .title))
             .multilineTextAlignment(.leading)
             Spacer()
         } .padding()

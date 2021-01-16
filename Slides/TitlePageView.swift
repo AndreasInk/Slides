@@ -15,11 +15,14 @@ struct TitlePageView: View {
         BackAnimation()
             .ignoresSafeArea()
         VStack {
+            HStack {
            Text(title)
-            .font(.largeTitle)
+            .font(Font.custom("OpenSans-Bold", size: 45, relativeTo: .title))
             .foregroundColor(.black)
             .padding()
             .background(RoundedRectangle(cornerRadius: 25).foregroundColor(Color("lightGray")))
+                Spacer()
+            }
             Spacer()
             HStack {
                 Spacer()
@@ -29,7 +32,9 @@ struct TitlePageView: View {
                     }
                 }) {
                 Text("Start")
-                    .font(.headline)
+                    .font(Font.custom("OpenSans-SemiBold", size: 25, relativeTo: .title))
+                    .padding()
+                    .background(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/).foregroundColor(Color("lightGray")))
             }
             } .padding()
         } .padding()

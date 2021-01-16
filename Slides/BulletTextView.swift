@@ -12,9 +12,9 @@ struct BulletTextView: View {
     var body: some View {
         HStack {
            Image(systemName: "circle.fill")
-            .font(.callout)
+            .font(.title)
         Text(text)
-            .font(.subheadline)
+            .font(Font.custom("OpenSans-Bold", size: 35, relativeTo: .caption))
             .multilineTextAlignment(.leading)
             Spacer()
         } .padding()
