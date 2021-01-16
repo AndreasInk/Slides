@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E105DE5825B3388500D4FA7F /* EditSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105DE5725B3388500D4FA7F /* EditSlideView.swift */; };
+		E105DE5B25B33E2300D4FA7F /* SlideDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105DE5A25B33E2300D4FA7F /* SlideDemo.swift */; };
+		E105DE5E25B33E7E00D4FA7F /* BulletTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105DE5D25B33E7E00D4FA7F /* BulletTextView.swift */; };
+		E105DE6225B33EE900D4FA7F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105DE6125B33EE900D4FA7F /* TitleView.swift */; };
+		E105DE6525B3418E00D4FA7F /* BackAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105DE6425B3418E00D4FA7F /* BackAnimation.swift */; };
+		E105DE6A25B3445400D4FA7F /* TitlePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105DE6925B3445400D4FA7F /* TitlePageView.swift */; };
+		E105DE6D25B344C300D4FA7F /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105DE6C25B344C300D4FA7F /* Slide.swift */; };
 		E119C1BB25B2DCBF00C9B68A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119C1BA25B2DCBF00C9B68A /* AppDelegate.swift */; };
 		E119C1BD25B2DCBF00C9B68A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119C1BC25B2DCBF00C9B68A /* SceneDelegate.swift */; };
 		E119C1BF25B2DCBF00C9B68A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119C1BE25B2DCBF00C9B68A /* ContentView.swift */; };
 		E119C1C125B2DCC100C9B68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E119C1C025B2DCC100C9B68A /* Assets.xcassets */; };
 		E119C1C425B2DCC100C9B68A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E119C1C325B2DCC100C9B68A /* Preview Assets.xcassets */; };
 		E119C1C725B2DCC100C9B68A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E119C1C525B2DCC100C9B68A /* LaunchScreen.storyboard */; };
-		E119C1D025B2DD7400C9B68A /* SlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119C1CF25B2DD7400C9B68A /* SlidesView.swift */; };
-		E119C1D325B2DD7D00C9B68A /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119C1D225B2DD7D00C9B68A /* SlideView.swift */; };
+		E119C1D025B2DD7400C9B68A /* DecksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119C1CF25B2DD7400C9B68A /* DecksView.swift */; };
 		E119C1D625B2DDDE00C9B68A /* Componet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119C1D525B2DDDE00C9B68A /* Componet.swift */; };
+		E1B8C7FF25B3AA48009EB66B /* DeckCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8C7FE25B3AA48009EB66B /* DeckCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E105DE5725B3388500D4FA7F /* EditSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSlideView.swift; sourceTree = "<group>"; };
+		E105DE5A25B33E2300D4FA7F /* SlideDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideDemo.swift; sourceTree = "<group>"; };
+		E105DE5D25B33E7E00D4FA7F /* BulletTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletTextView.swift; sourceTree = "<group>"; };
+		E105DE6125B33EE900D4FA7F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		E105DE6425B3418E00D4FA7F /* BackAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackAnimation.swift; sourceTree = "<group>"; };
+		E105DE6925B3445400D4FA7F /* TitlePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePageView.swift; sourceTree = "<group>"; };
+		E105DE6C25B344C300D4FA7F /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		E105DE7125B3492F00D4FA7F /* Slides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slides.entitlements; sourceTree = "<group>"; };
 		E119C1B725B2DCBF00C9B68A /* Slides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E119C1BA25B2DCBF00C9B68A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E119C1BC25B2DCBF00C9B68A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +42,9 @@
 		E119C1C325B2DCC100C9B68A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E119C1C625B2DCC100C9B68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E119C1C825B2DCC100C9B68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E119C1CF25B2DD7400C9B68A /* SlidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidesView.swift; sourceTree = "<group>"; };
-		E119C1D225B2DD7D00C9B68A /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		E119C1CF25B2DD7400C9B68A /* DecksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksView.swift; sourceTree = "<group>"; };
 		E119C1D525B2DDDE00C9B68A /* Componet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Componet.swift; sourceTree = "<group>"; };
+		E1B8C7FE25B3AA48009EB66B /* DeckCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E105DE6F25B344CA00D4FA7F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E105DE6C25B344C300D4FA7F /* Slide.swift */,
+				E119C1D525B2DDDE00C9B68A /* Componet.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		E119C1AE25B2DCBF00C9B68A = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +86,19 @@
 		E119C1B925B2DCBF00C9B68A /* Slides */ = {
 			isa = PBXGroup;
 			children = (
+				E105DE7125B3492F00D4FA7F /* Slides.entitlements */,
 				E119C1BA25B2DCBF00C9B68A /* AppDelegate.swift */,
 				E119C1BC25B2DCBF00C9B68A /* SceneDelegate.swift */,
 				E119C1BE25B2DCBF00C9B68A /* ContentView.swift */,
-				E119C1CF25B2DD7400C9B68A /* SlidesView.swift */,
-				E119C1D225B2DD7D00C9B68A /* SlideView.swift */,
-				E119C1D525B2DDDE00C9B68A /* Componet.swift */,
+				E119C1CF25B2DD7400C9B68A /* DecksView.swift */,
+				E1B8C7FE25B3AA48009EB66B /* DeckCard.swift */,
+				E105DE5A25B33E2300D4FA7F /* SlideDemo.swift */,
+				E105DE6925B3445400D4FA7F /* TitlePageView.swift */,
+				E105DE6425B3418E00D4FA7F /* BackAnimation.swift */,
+				E105DE5D25B33E7E00D4FA7F /* BulletTextView.swift */,
+				E105DE6125B33EE900D4FA7F /* TitleView.swift */,
+				E105DE5725B3388500D4FA7F /* EditSlideView.swift */,
+				E105DE6F25B344CA00D4FA7F /* Data */,
 				E119C1C025B2DCC100C9B68A /* Assets.xcassets */,
 				E119C1C525B2DCC100C9B68A /* LaunchScreen.storyboard */,
 				E119C1C825B2DCC100C9B68A /* Info.plist */,
@@ -154,12 +185,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E105DE5B25B33E2300D4FA7F /* SlideDemo.swift in Sources */,
 				E119C1BB25B2DCBF00C9B68A /* AppDelegate.swift in Sources */,
 				E119C1BD25B2DCBF00C9B68A /* SceneDelegate.swift in Sources */,
 				E119C1D625B2DDDE00C9B68A /* Componet.swift in Sources */,
-				E119C1D025B2DD7400C9B68A /* SlidesView.swift in Sources */,
+				E105DE6A25B3445400D4FA7F /* TitlePageView.swift in Sources */,
+				E119C1D025B2DD7400C9B68A /* DecksView.swift in Sources */,
 				E119C1BF25B2DCBF00C9B68A /* ContentView.swift in Sources */,
-				E119C1D325B2DD7D00C9B68A /* SlideView.swift in Sources */,
+				E105DE5E25B33E7E00D4FA7F /* BulletTextView.swift in Sources */,
+				E105DE6D25B344C300D4FA7F /* Slide.swift in Sources */,
+				E105DE5825B3388500D4FA7F /* EditSlideView.swift in Sources */,
+				E105DE6525B3418E00D4FA7F /* BackAnimation.swift in Sources */,
+				E105DE6225B33EE900D4FA7F /* TitleView.swift in Sources */,
+				E1B8C7FF25B3AA48009EB66B /* DeckCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Slides/Slides.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Slides/Preview Content\"";
 				DEVELOPMENT_TEAM = MC27HKM86M;
@@ -309,6 +348,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Slides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Slides/Slides.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Slides/Preview Content\"";
 				DEVELOPMENT_TEAM = MC27HKM86M;
@@ -330,6 +371,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Slides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
