@@ -18,5 +18,5 @@ struct Componet: Identifiable, Codable, Hashable {
     var text: String
     var font: String
     var foregroundColor: String
-    var backgroundColor: String
+    
 }
