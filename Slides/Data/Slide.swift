@@ -19,6 +19,7 @@ struct Slide: Identifiable, Codable, Hashable {
     var id: String
     var title: String
     var type: String
+    var question: Question
     var bullets: [Bullet]
     
 }

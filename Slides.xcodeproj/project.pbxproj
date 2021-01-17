@@ -34,6 +34,8 @@
 		E1B8C81525B3ADF7009EB66B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = E1B8C80A25B3ADF7009EB66B /* LICENSE.txt */; };
 		E1B8C81625B3ADF7009EB66B /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B8C80B25B3ADF7009EB66B /* OpenSans-Regular.ttf */; };
 		E1B8C81725B3ADF7009EB66B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B8C80C25B3ADF7009EB66B /* OpenSans-BoldItalic.ttf */; };
+		E1B8C81A25B3B5CF009EB66B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8C81925B3B5CF009EB66B /* Question.swift */; };
+		E1B8C81D25B3B6A0009EB66B /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8C81C25B3B6A0009EB66B /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,8 @@
 		E1B8C80A25B3ADF7009EB66B /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		E1B8C80B25B3ADF7009EB66B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		E1B8C80C25B3ADF7009EB66B /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E1B8C81925B3B5CF009EB66B /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		E1B8C81C25B3B6A0009EB66B /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				E105DE6C25B344C300D4FA7F /* Slide.swift */,
+				E1B8C81925B3B5CF009EB66B /* Question.swift */,
 				E119C1D525B2DDDE00C9B68A /* Componet.swift */,
 			);
 			path = Data;
@@ -115,6 +120,7 @@
 				E119C1CF25B2DD7400C9B68A /* DecksView.swift */,
 				E1B8C7FE25B3AA48009EB66B /* DeckCard.swift */,
 				E105DE5A25B33E2300D4FA7F /* SlideDemo.swift */,
+				E1B8C81C25B3B6A0009EB66B /* QuestionView.swift */,
 				E105DE6925B3445400D4FA7F /* TitlePageView.swift */,
 				E105DE6425B3418E00D4FA7F /* BackAnimation.swift */,
 				E105DE5D25B33E7E00D4FA7F /* BulletTextView.swift */,
@@ -242,10 +248,12 @@
 				E119C1BD25B2DCBF00C9B68A /* SceneDelegate.swift in Sources */,
 				E119C1D625B2DDDE00C9B68A /* Componet.swift in Sources */,
 				E105DE6A25B3445400D4FA7F /* TitlePageView.swift in Sources */,
+				E1B8C81A25B3B5CF009EB66B /* Question.swift in Sources */,
 				E119C1D025B2DD7400C9B68A /* DecksView.swift in Sources */,
 				E119C1BF25B2DCBF00C9B68A /* ContentView.swift in Sources */,
 				E105DE5E25B33E7E00D4FA7F /* BulletTextView.swift in Sources */,
 				E105DE6D25B344C300D4FA7F /* Slide.swift in Sources */,
+				E1B8C81D25B3B6A0009EB66B /* QuestionView.swift in Sources */,
 				E105DE5825B3388500D4FA7F /* EditSlideView.swift in Sources */,
 				E105DE6525B3418E00D4FA7F /* BackAnimation.swift in Sources */,
 				E105DE6225B33EE900D4FA7F /* TitleView.swift in Sources */,

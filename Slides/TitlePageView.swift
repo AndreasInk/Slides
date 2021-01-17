@@ -17,7 +17,7 @@ struct TitlePageView: View {
         VStack {
             HStack {
            Text(title)
-            .font(Font.custom("OpenSans-Bold", size: 45, relativeTo: .title))
+            .font(Font.custom("OpenSans-Bold", size: 35, relativeTo: .title))
             .foregroundColor(.black)
             .padding()
             .background(RoundedRectangle(cornerRadius: 25).foregroundColor(Color("lightGray")))
@@ -36,7 +36,7 @@ struct TitlePageView: View {
                     .padding()
                     .background(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/).foregroundColor(Color("lightGray")))
             }
-            } .padding()
+            }
         } .padding()
            
         }

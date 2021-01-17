@@ -14,19 +14,19 @@ struct SlideDemo: View {
     @Binding var openDeck: Bool
     var body: some View {
         if !start {
-            TitlePageView(start: $start, title: "Civil Right and Civil Liberties")
+            TitlePageView(start: $start, title: deck.title)
             .transition(.slide)
         }
         if start {
             TabView {
                 ForEach(deck.slides, id: \.self) { slide in
-            
+                    if slide.question.id == "" {
         ZStack {
         VStack {
             TitleView(text: slide.title)
                 .onAppear() {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-                    currentBullet = deck.slides[0].bullets[2]
+                   // currentBullet = deck.slides[0].bullets[2]
                     }
                 }
             ScrollView {
@@ -50,7 +50,10 @@ struct SlideDemo: View {
         }
         }
                 }
-        }
+                    } else {
+                        QuestionView(question: slide.question)
+                    }
+                }
         } .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             .transition(.opacity)
            
@@ -66,7 +69,7 @@ struct SlideDemo: View {
                         .background(Circle().foregroundColor(.white))
                 }
                
-            } .padding()
+            } 
             Spacer()
         } .padding()
 }
