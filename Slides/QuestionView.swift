@@ -20,13 +20,14 @@ struct QuestionView: View {
                         
                     }
                 }) {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
-                            .foregroundColor(Color("lightGray"))
-                            .frame(height: 60)
+                   
+                       
+                           
                     Text(option)
                         .font(Font.custom("OpenSans-SemiBold", size: 25, relativeTo: .title))
-                    } .padding()
+                        .padding()
+                        .background( RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
+                                        .foregroundColor(Color("lightGray")).frame(minWidth: 250))
                 }
             }
         }
